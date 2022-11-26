@@ -8,9 +8,6 @@ bucket = "tf-state-bucket-3699"
 
 # prevent accidental deletion
 
-lifecycle {
-  prevent_destroy = true
-}
 
 # state filed enable versioning of history
 versioning {
